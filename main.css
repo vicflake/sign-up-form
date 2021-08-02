@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url(./images/bg-intro-mobile.png);
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+}
+
+.container {
+    padding:1.56rem;
+    text-align: center;
+}
+
+.header {
+    padding-top: 6.23rem;
+    padding-bottom: 4.375rem;
+}
+
+.form__container {
+    border: 1px solid grey;
+}
+
+.btn {
+    background-color: hsl(248, 32%, 49%);
+    border: none;
+    color: #ffff;
+    text-decoration: none;
+    padding: 0.85rem 3rem;
+    font-family: inherit;
+    font-size: inherit;
+    margin-bottom: 1.4rem;
+    border-radius: 8px;
+}
+
+
+
+/* ===============
+    text
+==================
+*/
+
+h1 {
+    padding-bottom: 1.875rem;
+}
+
