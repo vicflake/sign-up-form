@@ -28,12 +28,16 @@
         <!-- Form -->
         <div class="form__container drop_shadow">
           <div class="input_elements">
-            <input type="text" autocomplete="off" autofocus placeholder="First Name" class="input__item">
-            <input type="text" autocomplete="off" placeholder="Last Name" class="input__item">
-            <input type="email" autocomplete="off" placeholder="Email Address" class="input__item">
-            <input type="password" autocomplete="off" placeholder="Password" class="input__item">
-            <input type="submit" value="Claim your free trial" class="btn__input">
-            <small>By clicking the button, you are agreeing to our <span>Terms and Services</span></small>
+            <input type="text" autocomplete="off" autofocus placeholder="First Name" class="input_item" id="input_item_first" required>
+            <span id="input_item_first_error"></span>
+            <input type="text" autocomplete="off" placeholder="Last Name" class="input_item" id="input_item_last" required>
+            <span id="input_item_last_error"></span>
+            <input type="email" autocomplete="off" placeholder="Email Address" class="input_item" id="input_item_email" required>
+            <span id="input_item_email_error"></span>
+            <input type="password" autocomplete="off" placeholder="Password" class="input_item" id="input_item_password" required>
+            <span id="input_item_password_error"></span>
+            <input type="submit" value="Claim your free trial" id="btn__input">
+            <small>By clicking the button, you are agreeing to our <span class="terms_conds">Terms and Services</span></small>
           </div>
         </div>
       </div>
@@ -47,5 +51,7 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer> -->
+
+  <script src="./src/app.js"></script>
 </body>
 </html>

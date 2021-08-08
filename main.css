@@ -31,7 +31,7 @@ body {
 
 
 
-.input__item, .btn__input {
+.input_item, #btn__input {
     font-family: inherit;
     font-weight: 700;
     width: 100%;
@@ -40,7 +40,7 @@ body {
 
 }
 
-.input__item {
+.input_item{
     width: 100%;
     height: 3.4375rem;
     border: 1px solid hsl(246, 25%, 77%);
@@ -62,7 +62,7 @@ body {
 }
 
 
-.btn__input {
+#btn__input {
     background-color: hsl(154, 59%, 51%);
     border: 1px solid hsl(154, 59%, 51%);
     box-shadow: 2px 5px 5px hsl(246, 25%, 77%);
@@ -74,14 +74,20 @@ body {
     cursor: pointer;
 }
 
-.btn__input:hover {
+#btn__input:hover {
     opacity: 0.7;
     
 }
 
-span {
+.terms_conds {
     color: hsl(0, 100%, 74%);
     font-weight: 700;
+    font-size: inherit;
+}
+
+div > span {
+    font-size: 0.75rem;
+    color: hsl(0, 100%, 74%);
 }
 
 
@@ -106,6 +112,11 @@ UTILITY CLASSES
 .drop_shadow{
     box-shadow: 0px 8px rgba(0, 0, 0, 0.12);
 }
+
+.invalid {
+    border: 1px solid red;
+}
+
 
 /* ============
 RESPONSIVE DESIGN
