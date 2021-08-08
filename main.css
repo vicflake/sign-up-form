@@ -22,30 +22,88 @@ body {
     padding-bottom: 4.375rem;
 }
 
+
 .form__container {
-    border: 1px solid grey;
+    border-radius: 8px;
+    background-color: #ffff;
+    padding: 25px;
+}
+
+
+
+.input__item, .btn__input {
+    font-family: inherit;
+    font-weight: 700;
+    width: 100%;
+    height: 3.4375rem;
+    border-radius: 8px;
+
+}
+
+.input__item {
+    width: 100%;
+    height: 3.4375rem;
+    border: 1px solid hsl(246, 25%, 77%);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 .btn {
     background-color: hsl(248, 32%, 49%);
     border: none;
+    border-radius: 8px;
     color: #ffff;
     text-decoration: none;
     padding: 0.85rem 3rem;
     font-family: inherit;
     font-size: inherit;
     margin-bottom: 1.4rem;
-    border-radius: 8px;
+    cursor: pointer;
 }
 
 
+.btn__input {
+    background-color: hsl(154, 59%, 51%);
+    border: 1px solid hsl(154, 59%, 51%);
+    box-shadow: 2px 5px 5px hsl(246, 25%, 77%);
+    color: #ffff;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+
+.btn__input:hover {
+    opacity: 0.7;
+    
+}
+
+span {
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
+
 
 /* ===============
-    text
+TEXT
 ==================
 */
 
 h1 {
     padding-bottom: 1.875rem;
+}
+
+small {
+    color: hsl(246, 25%, 77%);
+    font-size: 0.7rem;
+}
+
+/* ============
+UTILITY CLASSES
+===============*/
+
+.drop_shadow{
+    box-shadow: 0px 8px rgba(0, 0, 0, 0.12);
 }
 
