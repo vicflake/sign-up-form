@@ -35,11 +35,12 @@ let submitForm = document.getElementById("btn__input");
         }
 
         // VALIDATE EMAIL
-        if (email.value.length != 0){
+        var regex = /^\S+@\S+\.\S+$/;
+        if (regex.test(email.value) === true){
             emailError = "";
             email.classList.remove("invalid");
         } else {
-            emailError = "Last Name cannot be empty";
+            emailError = "Looks like this is not an email";
 
             email.classList.add("invalid");
 
@@ -49,7 +50,7 @@ let submitForm = document.getElementById("btn__input");
             passwordError = "";
             password.classList.remove("invalid");
         } else {
-            passwordError = "Last Name cannot be empty";
+            passwordError = "Password cannot be empty";
 
             password.classList.add("invalid");
 
