@@ -107,3 +107,57 @@ UTILITY CLASSES
     box-shadow: 0px 8px rgba(0, 0, 0, 0.12);
 }
 
+/* ============
+RESPONSIVE DESIGN
+=============== */
+
+@media (min-width: 475px){
+    .container {
+        max-width: 60%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 1000px){
+
+    body{ 
+        max-width: 1440px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-align: left;
+    }
+    p{
+        text-align: left;
+    }
+
+
+    .container {
+        height: 100vh;
+        max-width: 80%;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .form__container {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 2.1875rem;
+    }
+
+    .btn {
+        width: 80%;
+    }
+
+
+}
