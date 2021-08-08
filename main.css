@@ -126,28 +126,26 @@ RESPONSIVE DESIGN
 
 @media (min-width: 1000px){
 
-    body{ 
-        max-width: 1440px;
-    }
 
     h1 {
-        font-size: 3rem;
+        font-size: 4rem;
         text-align: left;
+        line-height: 5rem;
     }
     p{
         text-align: left;
+        line-height: 1.5rem;
     }
 
-
+    .header {
+        padding-left: 5rem;
+    }
     .container {
         height: 100vh;
-        max-width: 80%;
+        max-width: 1440px;
         display: flex;
-        flex: 1;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
-        padding: 0;
     }
     .form__container {
         max-width: 80%;
